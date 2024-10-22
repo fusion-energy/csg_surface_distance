@@ -1,6 +1,15 @@
 [package]
-name = "csg_distance"
+name = "csg_surface_distance"
 version = "0.1.0"
 edition = "2021"
+authors = ["Jonathan Shimwell <mail@jshimwell.com>"]
+description = "A package for calculating distance along a given vector between a point and a surface"
+license = "MIT"
+repository = "https://github.com/fusion-energy/csg_surface_distance"
+documentation = "https://github.com/fusion-energy/csg_surface_distance"
+homepage = "https://github.com/fusion-energy/csg_surface_distance"
 
-[dependencies]
+
+[lib]
+name = "csg_surface_distance"
+path = "src/lib.rs"

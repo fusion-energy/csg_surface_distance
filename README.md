@@ -1,10 +1,10 @@
-# csg_distance
+# csg_surface_distance
 
 A Rust Cargo crate for finding the distance between a point and a constructive solid geometry (CSG) surface
 
 ## Supported Surfaces
 
-csg_distance supports the following types of surfaces:
+csg_surface_distance supports the following types of surfaces:
 
 1. **Sphere**
    - Defined by its center coordinates `(x, y, z)` and radius.
@@ -77,8 +77,8 @@ csg_distance supports the following types of surfaces:
 
 ## Usage
 
-To use the `csg_distance` package, add it to your `Cargo.toml`:
+To use the `csg_surface_distance` package, add it to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-csg_distance = "0.1.0"  # Replace with the actual version
+csg_surface_distance = "0.1.0"  # Replace with the actual version
