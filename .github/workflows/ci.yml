@@ -27,10 +27,5 @@ jobs:
       - name: Publish
       - uses: actions/checkout@v4
       - run: rustup update stable && rustup default stable
-      - run: >
-          cargo publish
-          --dry-run
-          --verbose
-          --locked
-          --token ${{ secrets.CARGO_REGISTRY_TOKEN }}
+      - run: cargo publish --dry-run --verbose --locked --token ${{ secrets.CARGO_REGISTRY_TOKEN }}
     
