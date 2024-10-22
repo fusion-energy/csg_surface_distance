@@ -1,4 +1,4 @@
-# csg_surface_distance
+[![CI Rust testing](https://github.com/fusion-energy/csg_surface_distance/actions/workflows/ci.yml/badge.svg)](https://github.com/fusion-energy/csg_surface_distance/actions/workflows/ci.yml)
 
 A Rust Cargo crate for finding the distance between a point and a constructive solid geometry (CSG) surface
 
