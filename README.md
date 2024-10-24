@@ -5,6 +5,7 @@ A Rust Cargo crate for finding the distance between a point and a constructive s
 ## Example usage
 
 This example finds the distance from a point along a vector to a spherical surface.
+See the [example_usage](https://github.com/fusion-energy/csg_surface_distance/tree/main/example_use) folder for more detail.
 
 ```rust
 use csg_surface_distance::{Point, Vector, CSGSurface};
